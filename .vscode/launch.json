@@ -1,0 +1,497 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Basic",
+            "request": "launch",
+            "mainClass": "LINKEDLISTS.Basic",
+            "projectName": "Beginner_Java_DSA_57cbe6f2"
+        },
+        {
+            "type": "java",
+            "name": "SortArray",
+            "request": "launch",
+            "mainClass": "Sorting.SortArray",
+            "projectName": "Beginner_Java_DSA_57cbe6f2"
+        },
+        {
+            "type": "java",
+            "name": "SecondSmall",
+            "request": "launch",
+            "mainClass": "ArrayConcept.SecondSmall",
+            "projectName": "Beginner_Java_DSA_57cbe6f2"
+        },
+        {
+            "type": "java",
+            "name": "SecLarge",
+            "request": "launch",
+            "mainClass": "ArrayConcept.SecLarge",
+            "projectName": "Beginner_Java_DSA_57cbe6f2"
+        },
+        {
+            "type": "java",
+            "name": "InvertTriangle",
+            "request": "launch",
+            "mainClass": "Patterns.InvertTriangle",
+            "projectName": "Beginner_Java_DSA_57cbe6f2"
+        },
+        {
+            "type": "java",
+            "name": "RightAngle",
+            "request": "launch",
+            "mainClass": "Patterns.RightAngle",
+            "projectName": "Beginner_Java_DSA_57cbe6f2"
+        },
+        {
+            "type": "java",
+            "name": "Square",
+            "request": "launch",
+            "mainClass": "Patterns.Square",
+            "projectName": "Beginner_Java_DSA_57cbe6f2"
+        },
+        {
+            "type": "java",
+            "name": "Bubble2",
+            "request": "launch",
+            "mainClass": "Sorting.Bubble2",
+            "projectName": "Beginner_Java_DSA_57cbe6f2"
+        },
+        {
+            "type": "java",
+            "name": "Insertion",
+            "request": "launch",
+            "mainClass": "Sorting.Insertion",
+            "projectName": "Beginner_Java_DSA_57cbe6f2"
+        },
+        {
+            "type": "java",
+            "name": "Selection",
+            "request": "launch",
+            "mainClass": "Sorting.Selection",
+            "projectName": "Beginner_Java_DSA_57cbe6f2"
+        },
+        {
+            "type": "java",
+            "name": "Bubble",
+            "request": "launch",
+            "mainClass": "Sorting.Bubble",
+            "projectName": "Beginner_Java_DSA_57cbe6f2"
+        },
+        {
+            "type": "java",
+            "name": "HashChar2",
+            "request": "launch",
+            "mainClass": "BruteForce.HashChar2",
+            "projectName": "Beginner_Java_DSA_57cbe6f2"
+        },
+        {
+            "type": "java",
+            "name": "HashChar1",
+            "request": "launch",
+            "mainClass": "BruteForce.HashChar1",
+            "projectName": "Beginner_Java_DSA_57cbe6f2"
+        },
+        {
+            "type": "java",
+            "name": "Hash3",
+            "request": "launch",
+            "mainClass": "BruteForce.Hash3",
+            "projectName": "Beginner_Java_DSA_57cbe6f2"
+        },
+        {
+            "type": "java",
+            "name": "Hash2",
+            "request": "launch",
+            "mainClass": "BruteForce.Hash2",
+            "projectName": "Beginner_Java_DSA_57cbe6f2"
+        },
+        {
+            "type": "java",
+            "name": "hash",
+            "request": "launch",
+            "mainClass": "BruteForce.hash",
+            "projectName": "Beginner_Java_DSA_57cbe6f2"
+        },
+        {
+            "type": "java",
+            "name": "T2sum",
+            "request": "launch",
+            "mainClass": "HashMappp.T2sum",
+            "projectName": "Beginner_Java_DSA_57cbe6f2"
+        },
+        {
+            "type": "java",
+            "name": "TwoSum",
+            "request": "launch",
+            "mainClass": "HashMappp.TwoSum",
+            "projectName": "Beginner_Java_DSA_57cbe6f2"
+        },
+        {
+            "type": "java",
+            "name": "ThreeSum",
+            "request": "launch",
+            "mainClass": "HashMappp.ThreeSum",
+            "projectName": "Beginner_Java_DSA_57cbe6f2"
+        },
+        {
+            "type": "java",
+            "name": "BinarySubarray",
+            "request": "launch",
+            "mainClass": "TwoPointer.BinarySubarray",
+            "projectName": "Beginner_Java_DSA_57cbe6f2"
+        },
+        {
+            "type": "java",
+            "name": "BinarySum",
+            "request": "launch",
+            "mainClass": "TwoPointer.BinarySum",
+            "projectName": "Beginner_Java_DSA_57cbe6f2"
+        },
+        {
+            "type": "java",
+            "name": "CharOpRe",
+            "request": "launch",
+            "mainClass": "TwoPointer.CharOpRe",
+            "projectName": "Beginner_Java_DSA_57cbe6f2"
+        },
+        {
+            "type": "java",
+            "name": "SubString",
+            "request": "launch",
+            "mainClass": "TwoPointer.SubString",
+            "projectName": "Beginner_Java_DSA_57cbe6f2"
+        },
+        {
+            "type": "java",
+            "name": "SubArraySum",
+            "request": "launch",
+            "mainClass": "TwoPointer.SubArraySum",
+            "projectName": "Beginner_Java_DSA_57cbe6f2"
+        },
+        {
+            "type": "java",
+            "name": "ChReplace",
+            "request": "launch",
+            "mainClass": "TwoPointer.ChReplace",
+            "projectName": "Beginner_Java_DSA_57cbe6f2"
+        },
+        {
+            "type": "java",
+            "name": "LongStringDistCha",
+            "request": "launch",
+            "mainClass": "HashMappp.LongStringDistCha",
+            "projectName": "Beginner_Java_DSA_57cbe6f2"
+        },
+        {
+            "type": "java",
+            "name": "My",
+            "request": "launch",
+            "mainClass": "HashMappp.My",
+            "projectName": "Beginner_Java_DSA_57cbe6f2"
+        },
+        {
+            "type": "java",
+            "name": "tUf",
+            "request": "launch",
+            "mainClass": "HashMappp.tUf",
+            "projectName": "Beginner_Java_DSA_57cbe6f2"
+        },
+        {
+            "type": "java",
+            "name": "Subsequ",
+            "request": "launch",
+            "mainClass": "Contests.Subsequ",
+            "projectName": "Beginner_Java_DSA_57cbe6f2"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "TwoPointer.Main",
+            "projectName": "Beginner_Java_DSA_57cbe6f2"
+        },
+        {
+            "type": "java",
+            "name": "WoRepeatChar",
+            "request": "launch",
+            "mainClass": "TwoPointer.WoRepeatChar",
+            "projectName": "Beginner_Java_DSA_57cbe6f2"
+        },
+        {
+            "type": "java",
+            "name": "ConstWind",
+            "request": "launch",
+            "mainClass": "TwoPointer.ConstWind",
+            "projectName": "Beginner_Java_DSA_57cbe6f2"
+        },
+        {
+            "type": "java",
+            "name": "Chat",
+            "request": "launch",
+            "mainClass": "HashMappp.Chat",
+            "projectName": "Beginner_Java_DSA_57cbe6f2"
+        },
+        {
+            "type": "java",
+            "name": "WidoutRepChar",
+            "request": "launch",
+            "mainClass": "TwoPointer.WidoutRepChar",
+            "projectName": "Beginner_Java_DSA_57cbe6f2"
+        },
+        {
+            "type": "java",
+            "name": "LongSubarray",
+            "request": "launch",
+            "mainClass": "TwoPointer.LongSubarray",
+            "projectName": "Beginner_Java_DSA_57cbe6f2"
+        },
+        {
+            "type": "java",
+            "name": "FruitBasket",
+            "request": "launch",
+            "mainClass": "TwoPointer.FruitBasket",
+            "projectName": "Beginner_Java_DSA_57cbe6f2"
+        },
+        {
+            "type": "java",
+            "name": "SubString",
+            "request": "launch",
+            "mainClass": "StringsConcept.SubString",
+            "projectName": "Beginner_Java_DSA_57cbe6f2"
+        },
+        {
+            "type": "java",
+            "name": "GFG",
+            "request": "launch",
+            "mainClass": "StringsConcept.GFG",
+            "projectName": "Beginner_Java_DSA_57cbe6f2"
+        },
+        {
+            "type": "java",
+            "name": "Equality",
+            "request": "launch",
+            "mainClass": "StringsConcept.Equality",
+            "projectName": "Beginner_Java_DSA_57cbe6f2"
+        },
+        {
+            "type": "java",
+            "name": "Geeks",
+            "request": "launch",
+            "mainClass": "StringsConcept.Geeks",
+            "projectName": "Beginner_Java_DSA_57cbe6f2"
+        },
+        {
+            "type": "java",
+            "name": "Deletechar",
+            "request": "launch",
+            "mainClass": "StringsConcept.Deletechar",
+            "projectName": "Beginner_Java_DSA_57cbe6f2"
+        },
+        {
+            "type": "java",
+            "name": "Sbuild",
+            "request": "launch",
+            "mainClass": "StringsConcept.Sbuild",
+            "projectName": "Beginner_Java_DSA_57cbe6f2"
+        },
+        {
+            "type": "java",
+            "name": "ReplacePartch",
+            "request": "launch",
+            "mainClass": "StringsConcept.ReplacePartch",
+            "projectName": "Beginner_Java_DSA_57cbe6f2"
+        },
+        {
+            "type": "java",
+            "name": "AccessChar",
+            "request": "launch",
+            "mainClass": "StringsConcept.AccessChar",
+            "projectName": "Beginner_Java_DSA_57cbe6f2"
+        },
+        {
+            "type": "java",
+            "name": "Concat",
+            "request": "launch",
+            "mainClass": "StringsConcept.Concat",
+            "projectName": "Beginner_Java_DSA_57cbe6f2"
+        },
+        {
+            "type": "java",
+            "name": "ArrayGreat",
+            "request": "launch",
+            "mainClass": "Contests.ArrayGreat",
+            "projectName": "Beginner_Java_DSA_57cbe6f2"
+        },
+        {
+            "type": "java",
+            "name": "MaxCons_1",
+            "request": "launch",
+            "mainClass": "ArrayConcept.MaxCons_1",
+            "projectName": "Beginner_Java_DSA_57cbe6f2"
+        },
+        {
+            "type": "java",
+            "name": "sbuilder",
+            "request": "launch",
+            "mainClass": "StringsConcept.sbuilder",
+            "projectName": "Beginner_Java_DSA_57cbe6f2"
+        },
+        {
+            "type": "java",
+            "name": "CharSet",
+            "request": "launch",
+            "mainClass": "StringsConcept.CharSet",
+            "projectName": "Beginner_Java_DSA_57cbe6f2"
+        },
+        {
+            "type": "java",
+            "name": "NewConcept",
+            "request": "launch",
+            "mainClass": "StringsConcept.NewConcept",
+            "projectName": "Beginner_Java_DSA_57cbe6f2"
+        },
+        {
+            "type": "java",
+            "name": "Basic",
+            "request": "launch",
+            "mainClass": "ArrayConcept.Basic",
+            "projectName": "Beginner_Java_DSA_57cbe6f2"
+        },
+        {
+            "type": "java",
+            "name": "changStr",
+            "request": "launch",
+            "mainClass": "StringsConcept.changStr",
+            "projectName": "Beginner_Java_DSA_57cbe6f2"
+        },
+        {
+            "type": "java",
+            "name": "MaxWindow",
+            "request": "launch",
+            "mainClass": "TwoPointer.MaxWindow",
+            "projectName": "Beginner_Java_DSA_57cbe6f2"
+        },
+        {
+            "type": "java",
+            "name": "MaxWindow",
+            "request": "launch",
+            "mainClass": "Arrays.MaxWindow",
+            "projectName": "Beginner_Java_DSA_57cbe6f2"
+        },
+        {
+            "type": "java",
+            "name": "SubLength",
+            "request": "launch",
+            "mainClass": "SubLength",
+            "projectName": "Beginner_Java_DSA_57cbe6f2"
+        },
+        {
+            "type": "java",
+            "name": "OptLongSubarr",
+            "request": "launch",
+            "mainClass": "OptLongSubarr",
+            "projectName": "Beginner_Java_DSA_57cbe6f2"
+        },
+        {
+            "type": "java",
+            "name": "LongSubArr",
+            "request": "launch",
+            "mainClass": "LongSubArr",
+            "projectName": "Beginner_Java_DSA_57cbe6f2"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Array",
+            "request": "launch",
+            "mainClass": "Array",
+            "projectName": "Beginner_Java_DSA_57cbe6f2"
+        },
+        {
+            "type": "java",
+            "name": "ArrayInsert",
+            "request": "launch",
+            "mainClass": "ArrayInsert",
+            "projectName": "Beginner_Java_DSA_57cbe6f2"
+        },
+        {
+            "type": "java",
+            "name": "Arraylist",
+            "request": "launch",
+            "mainClass": "Arraylist",
+            "projectName": "Beginner_Java_DSA_57cbe6f2"
+        },
+        {
+            "type": "java",
+            "name": "DiagonalMatrix",
+            "request": "launch",
+            "mainClass": "DiagonalMatrix",
+            "projectName": "Beginner_Java_DSA_57cbe6f2"
+        },
+        {
+            "type": "java",
+            "name": "InsertArray",
+            "request": "launch",
+            "mainClass": "InsertArray",
+            "projectName": "Beginner_Java_DSA_57cbe6f2"
+        },
+        {
+            "type": "java",
+            "name": "MaxSubSum",
+            "request": "launch",
+            "mainClass": "MaxSubSum",
+            "projectName": "Beginner_Java_DSA_57cbe6f2"
+        },
+        {
+            "type": "java",
+            "name": "MaxarraySum",
+            "request": "launch",
+            "mainClass": "MaxarraySum",
+            "projectName": "Beginner_Java_DSA_57cbe6f2"
+        },
+        {
+            "type": "java",
+            "name": "Merge_2_array",
+            "request": "launch",
+            "mainClass": "Merge_2_array",
+            "projectName": "Beginner_Java_DSA_57cbe6f2"
+        },
+        {
+            "type": "java",
+            "name": "Remove",
+            "request": "launch",
+            "mainClass": "Remove",
+            "projectName": "Beginner_Java_DSA_57cbe6f2"
+        },
+        {
+            "type": "java",
+            "name": "RemoveDup",
+            "request": "launch",
+            "mainClass": "RemoveDup",
+            "projectName": "Beginner_Java_DSA_57cbe6f2"
+        },
+        {
+            "type": "java",
+            "name": "SelectionSort",
+            "request": "launch",
+            "mainClass": "SelectionSort",
+            "projectName": "Beginner_Java_DSA_57cbe6f2"
+        },
+        {
+            "type": "java",
+            "name": "stringLen",
+            "request": "launch",
+            "mainClass": "stringLen",
+            "projectName": "Beginner_Java_DSA_57cbe6f2"
+        }
+    ]
+}
