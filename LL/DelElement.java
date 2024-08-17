@@ -12,9 +12,10 @@ public class DelElement {
                 current=current.next;
             }
         }
-            if(current!=null)
+            if(current!=null)   //If some elements present but it is not equal to the deleted element,
+                                //it means it is the deleted element!
             {
-                prev.next=current.next;
+                prev.next=prev.next.next;
             }
             
         
