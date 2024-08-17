@@ -4,20 +4,20 @@ public class DelElement {
     {
         Node1 current=head;
         Node1 prev=null;
-        // while(current!=null&& current.data!=ele)
-        // {
-        //     prev=current;
-        //     current=current.next;
-        // }
-       while(current!=null)
+       while(current!=null && current.data != ele)
        {
-            if(current.data != ele)
             {
-                System.out.print(current.data+" ");
+                
                 prev=current;
+                current=current.next;
             }
-            current=current.next;
         }
+            if(current!=null)
+            {
+                prev.next=current.next;
+            }
+            
+        
 }
 
     public static void main(String[] args) {
@@ -29,6 +29,12 @@ public class DelElement {
         int element=25;
         Node1 temp=head;
         deleteElement(temp,element);
+        while(temp!=null)
+        {
+            System.out.print(temp.data+" ");
+            temp=temp.next;
+        }
+
     }
     
 }
