@@ -17,8 +17,9 @@ public class SubArraySum {
                 sum -=SubArraySum[l];
                 l++;
             }
-           
             r++;
+           
+         
         }
         if(maxLength==Integer.MAX_VALUE)
         {

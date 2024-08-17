@@ -6,6 +6,153 @@
     "configurations": [
         {
             "type": "java",
+            "name": "DelPos",
+            "request": "launch",
+            "mainClass": "LL.DelPos",
+            "projectName": "BEGINNER_JAVA_DSA_ecea4af2"
+        },
+        {
+            "type": "java",
+            "name": "DelLast",
+            "request": "launch",
+            "mainClass": "LL.DelLast",
+            "projectName": "BEGINNER_JAVA_DSA_ecea4af2"
+        },
+        {
+            "type": "java",
+            "name": "DelHead",
+            "request": "launch",
+            "mainClass": "LL.DelHead",
+            "projectName": "BEGINNER_JAVA_DSA_ecea4af2"
+        },
+        {
+            "type": "java",
+            "name": "Convert2Arr",
+            "request": "launch",
+            "mainClass": "LL.Convert2Arr",
+            "projectName": "BEGINNER_JAVA_DSA_ecea4af2"
+        },
+        {
+            "type": "java",
+            "name": "LongSubarray",
+            "request": "launch",
+            "mainClass": "TwoPointer.LongSubarray",
+            "projectName": "BEGINNER_JAVA_DSA_ecea4af2"
+        },
+        {
+            "type": "java",
+            "name": "SubArraySum",
+            "request": "launch",
+            "mainClass": "TwoPointer.SubArraySum",
+            "projectName": "BEGINNER_JAVA_DSA_ecea4af2"
+        },
+        {
+            "type": "java",
+            "name": "InsertFront",
+            "request": "launch",
+            "mainClass": "LL.InsertFront",
+            "projectName": "BEGINNER_JAVA_DSA_ecea4af2"
+        },
+        {
+            "type": "java",
+            "name": "InsertFront",
+            "request": "launch",
+            "mainClass": "LINKEDLISTS.InsertFront",
+            "projectName": "BEGINNER_JAVA_DSA_ecea4af2"
+        },
+        {
+            "type": "java",
+            "name": "Pattern",
+            "request": "launch",
+            "mainClass": "BruteForce.Pattern",
+            "projectName": "BEGINNER_JAVA_DSA_ecea4af2"
+        },
+        {
+            "type": "java",
+            "name": "LengthLL",
+            "request": "launch",
+            "mainClass": "LINKEDLISTS.LengthLL",
+            "projectName": "BEGINNER_JAVA_DSA_ecea4af2"
+        },
+        {
+            "type": "java",
+            "name": "SearchLL",
+            "request": "launch",
+            "mainClass": "LINKEDLISTS.SearchLL",
+            "projectName": "BEGINNER_JAVA_DSA_ecea4af2"
+        },
+        {
+            "type": "java",
+            "name": "SLLTraverse",
+            "request": "launch",
+            "mainClass": "LINKEDLISTS.SLLTraverse",
+            "projectName": "BEGINNER_JAVA_DSA_ecea4af2"
+        },
+        {
+            "type": "java",
+            "name": "SLL",
+            "request": "launch",
+            "mainClass": "LINKEDLISTS.SLL",
+            "projectName": "BEGINNER_JAVA_DSA_ecea4af2"
+        },
+        {
+            "type": "java",
+            "name": "Leader",
+            "request": "launch",
+            "mainClass": "TwoPointer.Leader",
+            "projectName": "BEGINNER_JAVA_DSA_ecea4af2"
+        },
+        {
+            "type": "java",
+            "name": "Traverse",
+            "request": "launch",
+            "mainClass": "LINKEDLISTS.Traverse",
+            "projectName": "BEGINNER_JAVA_DSA_ecea4af2"
+        },
+        {
+            "type": "java",
+            "name": "Leader",
+            "request": "launch",
+            "mainClass": "LINKEDLISTS.Leader",
+            "projectName": "BEGINNER_JAVA_DSA_ecea4af2"
+        },
+        {
+            "type": "java",
+            "name": "strin",
+            "request": "launch",
+            "mainClass": "LINKEDLISTS.strin",
+            "projectName": "BEGINNER_JAVA_DSA_ecea4af2"
+        },
+        {
+            "type": "java",
+            "name": "Basic",
+            "request": "launch",
+            "mainClass": "LINKEDLISTS.Basic",
+            "projectName": "BEGINNER_JAVA_DSA_ecea4af2"
+        },
+        {
+            "type": "java",
+            "name": "CustomLinkedList",
+            "request": "launch",
+            "mainClass": "LINKEDLISTS.CustomLinkedList",
+            "projectName": "BEGINNER_JAVA_DSA_ecea4af2"
+        },
+        {
+            "type": "java",
+            "name": "ThreeSum",
+            "request": "launch",
+            "mainClass": "HashMappp.ThreeSum",
+            "projectName": "BEGINNER_JAVA_DSA_ecea4af2"
+        },
+        {
+            "type": "java",
+            "name": "Basic2",
+            "request": "launch",
+            "mainClass": "LINKEDLISTS.Basic2",
+            "projectName": "BEGINNER_JAVA_DSA_ecea4af2"
+        },
+        {
+            "type": "java",
             "name": "Basic",
             "request": "launch",
             "mainClass": "LINKEDLISTS.Basic",

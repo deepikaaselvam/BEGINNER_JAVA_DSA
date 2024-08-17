@@ -8,6 +8,7 @@ public class LongSubarray {
         while(r<=n-1)
         {
             sum=sum+LongestSubArray[r];
+          
             if(sum>k)
             {
                 sum =sum-LongestSubArray[l];
@@ -15,9 +16,9 @@ public class LongSubarray {
             }
             if(sum<=k)
             {
-                maxLen=Math.max(maxLen,sum);
+                maxLen=Math.max(maxLen,r-l+1);
             }
-           r++;
+            r++;
         }
         System.out.println(maxLen);
     }
