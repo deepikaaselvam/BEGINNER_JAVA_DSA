@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Basic",
+            "request": "launch",
+            "mainClass": "LL.Basic",
+            "projectName": "BEGINNER_JAVA_DSA_ecea4af2"
+        },
+        {
+            "type": "java",
+            "name": "DelElement",
+            "request": "launch",
+            "mainClass": "LL.DelElement",
+            "projectName": "BEGINNER_JAVA_DSA_ecea4af2"
+        },
+        {
+            "type": "java",
             "name": "DelPos",
             "request": "launch",
             "mainClass": "LL.DelPos",
