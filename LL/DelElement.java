@@ -4,20 +4,25 @@ public class DelElement {
     {
         Node1 current=head;
         Node1 prev=null;
-       while(current!=null && current.data != ele)
+        if(current!=null && current.data==ele)
+        {
+           
+            head=current.next;
+            head=current;
+        }
+        
+       while(current!=null)
        {
-            {
-                
+        if(current.data!=ele)
                 prev=current;
                 current=current.next;
-            }
-        }
-            if(current!=null)   //If some elements present but it is not equal to the deleted element,
+       }
+    if(current!=null)   //If some elements present but it is not equal to the deleted element,
                                 //it means it is the deleted element!
-            {
-                prev.next=prev.next.next;
-            }
-            
+    {
+        prev.next=prev.next.next;
+    }
+           
         
 }
 
@@ -27,7 +32,7 @@ public class DelElement {
         head.next.next=new Node1(25);
         head.next.next.next=new Node1(26);
         head.next.next.next.next=new Node1(27);
-        int element=25;
+        int element=23;
         Node1 temp=head;
         deleteElement(temp,element);
         while(temp!=null)
