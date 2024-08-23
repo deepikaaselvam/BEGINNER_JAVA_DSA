@@ -11,7 +11,6 @@ public class DelEl {
                 prev.next=prev.next.next;
                 
             }
-            
             prev=current;
             current=current.next;
             
@@ -24,7 +23,7 @@ public class DelEl {
         head.next=new Node1(15);
         head.next.next=new Node1(13);
         head.next.next.next=new Node1(14);
-        int element1=15;
+        int element1=12;
         Node1 temp=head;
         delElementValue(temp,element1);
         while(temp!=null)
