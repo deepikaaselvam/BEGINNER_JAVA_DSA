@@ -1,32 +1,34 @@
 package LL;
 public class DelElement {
-    private static void deleteElement(Node1 head,int ele)
+    private static Node1 deleteElement(Node1 temp,int ele)
     {
-        Node1 current=head;
+        Node1 current=temp;
         Node1 prev=null;
         if(current!=null && current.data==ele)
         {
-           
-            head=current.next;
-            head=current;
+           temp=current;
+           return temp;
         }
-        
-       while(current!=null)
+        while(current!=null && current.data!=ele)
        {
-        if(current.data!=ele)
-                prev=current;
-                current=current.next;
+            prev=current;
+            current=current.next;
        }
-    if(current!=null)   //If some elements present but it is not equal to the deleted element,
+    if(current==null)   //If some elements present but it is not equal to the deleted element,
                                 //it means it is the deleted element!
     {
-        prev.next=prev.next.next;
+        return temp;
     }
-           
+        prev.next=current.next;
+        while(current!=null&&current.data==ele)
+        {
+             prev=current;
+            
+        }
+       return temp;    
         
 }
-
-    public static void main(String[] args) {
+public static void main(String[] args) {
         Node1 head=new Node1(23);
         head.next=new Node1(24);
         head.next.next=new Node1(25);

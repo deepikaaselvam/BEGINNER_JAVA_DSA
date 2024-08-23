@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "DelEl",
+            "request": "launch",
+            "mainClass": "LL.DelEl",
+            "projectName": "BEGINNER_JAVA_DSA_ecea4af2"
+        },
+        {
+            "type": "java",
             "name": "Basic",
             "request": "launch",
             "mainClass": "LL.Basic",
