@@ -1,5 +1,4 @@
 package LL;
-
 public class InsertHead {
     public static Node1 insertFirst(Node1 head)
     {
@@ -41,8 +40,7 @@ public class InsertHead {
          }
          System.out.println();
          insertFirst(head,100);
-
-        // insertFirst(head);
+         // insertFirst(head);
        
        
        
