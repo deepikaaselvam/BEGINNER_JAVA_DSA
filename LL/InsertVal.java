@@ -17,11 +17,15 @@ public class InsertVal {
         {
             return null;
         }
+        if(head.data==val)
+        {
+            return new Node1(x,head);
+        }
         while(current2.next!=null)
         {
             if(current2.next.data==val)
             {
-                Node1 newNode=new Node1(23);
+                Node1 newNode=new Node1(x);
                 newNode.next=current2.next;
                 current2.next=newNode;
                 break;
@@ -35,9 +39,9 @@ public class InsertVal {
         head.next=new Node1(13);
         head.next.next=new Node1(14);
         head.next.next.next=new Node1(16);
-        int element=16;
-        int whereposition=4;
-        insertBeforeValue(head,element,whereposition);
+        int element=12;
+        int fixData=8;
+        insertBeforeValue(head,element,fixData);
         printList(head);
 
 
