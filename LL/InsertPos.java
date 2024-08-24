@@ -1,7 +1,6 @@
 package LL;
-
 public class InsertPos {
-    public static void printList(Node1 head)
+    public static void printList(Node1 head)//**it does not work for the head node***//
     {
         Node1 temp=head;
         while(temp!=null)
@@ -9,17 +8,15 @@ public class InsertPos {
             System.out.print(temp.data+" ");
             temp=temp.next;
         }
-        
     }
     public static Node1 insertatthePosition(Node1 head,int ele,int position)
-    {
-       
-        
+    {                                                                                       
         Node1 current=head;
         int cnt=0;
+       
         while(current!=null)
         {
-            if(head==null)
+           if(head==null)
             {
                 if(position==1)
                 {
@@ -30,21 +27,17 @@ public class InsertPos {
                     return head;
                 }
             } 
-            if(position==1)
-            {
-                return new Node1(ele,head);}
-           
-            cnt++;
+           cnt++;
            if(cnt==position-1)
             {
                 Node1 newNode=new Node1(384);// (or)straight way do like this also
                 newNode.next=current.next;//as for these 2 line (Node1 newNode=new Node1(384,current.next))
                 current.next=newNode;
+                break;
             }
             current=current.next;
         }
         return head;
-       
     }
     public static void main(String[] args) {
         Node1 head=new Node1(2);
@@ -53,6 +46,7 @@ public class InsertPos {
         head.next.next.next=new Node1(34);
         int element=384;
         int k=1;
+       
         insertatthePosition(head,element,k);
         printList(head);
     }
