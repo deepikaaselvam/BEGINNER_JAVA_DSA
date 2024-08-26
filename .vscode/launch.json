@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Add2LL",
+            "request": "launch",
+            "mainClass": "LL.Add2LL",
+            "projectName": "BEGINNER_JAVA_DSA_ecea4af2"
+        },
+        {
+            "type": "java",
             "name": "SLLTraverse",
             "request": "launch",
             "mainClass": "LL.SLLTraverse",
