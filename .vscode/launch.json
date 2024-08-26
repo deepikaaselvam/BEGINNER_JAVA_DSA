@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "add2No",
+            "request": "launch",
+            "mainClass": "LL.add2No",
+            "projectName": "BEGINNER_JAVA_DSA_ecea4af2"
+        },
+        {
+            "type": "java",
             "name": "Add2LL",
             "request": "launch",
             "mainClass": "LL.Add2LL",
