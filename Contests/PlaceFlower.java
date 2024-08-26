@@ -18,13 +18,13 @@ public class PlaceFlower {
             {
                 return true;
             }
-           
+        //    i++;//it check for both left and right in the qn,if it is true just reduce the unwnted step and remove the unwanted step
         }
         return false;
     }
     public static void main(String[] args) {
         int array[]={1,0,0,0,1};
-        int n=1;
+        int n=2;
         System.out.println(canPlaceFlower(array,n));
     }
     
