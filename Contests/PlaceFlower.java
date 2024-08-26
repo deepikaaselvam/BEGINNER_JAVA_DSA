@@ -4,27 +4,24 @@ public class PlaceFlower {
     public static boolean canPlaceFlower(int[]FlowerBed,int n)
     {
         int length=FlowerBed.length;
-        int cnt=0;
+        
         for(int i=0;i<length;i++)
         {
             if(FlowerBed[i]==0)
             {
                 if((i==0 || FlowerBed[i-1]==0)&&(i==FlowerBed.length-1 ||FlowerBed[i+1]==0))
                 {
-                    cnt++;
+                    FlowerBed[i]=1;
+                    n=n-1;
                 }
             }
-            if(cnt==n)
-            {
-                return true;
-            }
-        //    i++;//it check for both left and right in the qn,if it is true just reduce the unwnted step and remove the unwanted step
         }
-        return false;
+           
+        return n<=0;
     }
     public static void main(String[] args) {
-        int array[]={1,0,0,0,1};
-        int n=2;
+        int array[]={1,1,1,0,0};
+        int n=1;
         System.out.println(canPlaceFlower(array,n));
     }
     
