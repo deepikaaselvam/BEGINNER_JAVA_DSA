@@ -1,25 +1,50 @@
 package LL;
+class Node1{
+    int data;
+    Node1 next;
+    public Node1(int data){
+        this.data=data;
+    }
+    public Node1()
+    {
+
+    }
+}
 
 public class insertLast {
-    public static void insertatLast(Node1 head)
+    public static void printList(Node1 result)
+    {
+        Node1 Lastone=result;
+        while(Lastone!=null)
+        {
+            System.out.print(Lastone.data+" ");
+            Lastone=Lastone.next;
+        }
+    }
+    public static Node1 insertatLast(Node1 head,int x)
     {
         Node1 temp=head;
-        Node1 newNode=new Node1(900);
+        Node1 newNode=new Node1(1000);
+        if(temp==null)
+        {
+            return newNode;
+        }
         while(temp.next!=null)
         {
             System.out.print(temp.data+" ");
             temp=temp.next;
         }
         temp.next=newNode;
-        newNode.next=null;
-        System.out.println();
+     
+       
+        return temp;
     }
     public static void main(String[] args) {
-        Node1 head=new Node1(12);
-        head.next=new Node1(13);
-        head.next.next=new Node1(14);
-        head.next.next.next=new Node1(17);
-        insertatLast(head);
+        Node1 head=new Node1();
+       
+        int x=10;
+        Node1 answer=insertatLast(head,x);
+        printList(answer);
 
 
     }

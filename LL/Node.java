@@ -12,6 +12,10 @@ public class Node{
         this.data=data;
         this.next=next;
     }
+    Node()
+    {
+
+    }
     public String toString(int data)
     {
         return Integer.toString(data);
