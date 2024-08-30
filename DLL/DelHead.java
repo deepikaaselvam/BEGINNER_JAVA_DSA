@@ -1,7 +1,7 @@
 package DLL;
 
 public class DelHead {
-    public static DLLNode deleteHeadNode(DLLNode head)
+    public static void  deleteHeadNode(DLLNode head)
     {
         DLLNode current=head;
         head=head.next;
@@ -13,7 +13,7 @@ public class DelHead {
             head=head.next;
         }
 
-        return current;
+      
 
 
         

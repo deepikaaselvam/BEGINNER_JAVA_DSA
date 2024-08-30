@@ -6,6 +6,90 @@
     "configurations": [
         {
             "type": "java",
+            "name": "DelTail",
+            "request": "launch",
+            "mainClass": "DLL.DelTail",
+            "projectName": "BEGINNER_JAVA_DSA_ecea4af2"
+        },
+        {
+            "type": "java",
+            "name": "DelHead",
+            "request": "launch",
+            "mainClass": "DLL.DelHead",
+            "projectName": "BEGINNER_JAVA_DSA_ecea4af2"
+        },
+        {
+            "type": "java",
+            "name": "CnvrtArr2DLL",
+            "request": "launch",
+            "mainClass": "DLL.CnvrtArr2DLL",
+            "projectName": "BEGINNER_JAVA_DSA_ecea4af2"
+        },
+        {
+            "type": "java",
+            "name": "Subarraysum",
+            "request": "launch",
+            "mainClass": "ArrayConcept.Subarraysum",
+            "projectName": "BEGINNER_JAVA_DSA_ecea4af2"
+        },
+        {
+            "type": "java",
+            "name": "RemDup",
+            "request": "launch",
+            "mainClass": "LL.RemDup",
+            "projectName": "BEGINNER_JAVA_DSA_ecea4af2"
+        },
+        {
+            "type": "java",
+            "name": "mergeLL",
+            "request": "launch",
+            "mainClass": "LL.mergeLL",
+            "projectName": "BEGINNER_JAVA_DSA_ecea4af2"
+        },
+        {
+            "type": "java",
+            "name": "Merge2LL",
+            "request": "launch",
+            "mainClass": "LL.Merge2LL",
+            "projectName": "BEGINNER_JAVA_DSA_ecea4af2"
+        },
+        {
+            "type": "java",
+            "name": "OddEvenSeg",
+            "request": "launch",
+            "mainClass": "LL.OddEvenSeg",
+            "projectName": "BEGINNER_JAVA_DSA_ecea4af2"
+        },
+        {
+            "type": "java",
+            "name": "SlowandFast",
+            "request": "launch",
+            "mainClass": "LL.SlowandFast",
+            "projectName": "BEGINNER_JAVA_DSA_ecea4af2"
+        },
+        {
+            "type": "java",
+            "name": "MidElement",
+            "request": "launch",
+            "mainClass": "LL.MidElement",
+            "projectName": "BEGINNER_JAVA_DSA_ecea4af2"
+        },
+        {
+            "type": "java",
+            "name": "Duplicates",
+            "request": "launch",
+            "mainClass": "ArrayConcept.Duplicates",
+            "projectName": "BEGINNER_JAVA_DSA_ecea4af2"
+        },
+        {
+            "type": "java",
+            "name": "InsertEnd",
+            "request": "launch",
+            "mainClass": "LL.InsertEnd",
+            "projectName": "BEGINNER_JAVA_DSA_ecea4af2"
+        },
+        {
+            "type": "java",
             "name": "add2No",
             "request": "launch",
             "mainClass": "LL.add2No",
