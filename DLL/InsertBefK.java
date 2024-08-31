@@ -29,7 +29,7 @@ public class InsertBefK {
         return head;
 
     }
-    public static DLLNode BeforeKthNode(DLLNode head,int index,int value)
+    public static void BeforeKthNode(DLLNode head,int index,int value)
     {
         DLLNode current=head;
         int cnt=0;
@@ -48,7 +48,7 @@ public class InsertBefK {
         previous.next=new_Node;
         current.prev=new_Node;
       
-        return head;
+        
 
     }
     public static void printList(DLLNode head)
@@ -68,7 +68,7 @@ public class InsertBefK {
         System.out.println();
         int k=3;
         int val=10;
-        head=BeforeKthNode(head,k,val);
+       BeforeKthNode(head,k,val);
         printList(head);
     }
     
