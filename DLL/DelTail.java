@@ -9,7 +9,9 @@ public class DelTail {
             System.out.print(current.data+"  ");
             current=current.next;
         }
-        current.next=null;
+        DLLNode newTail=current.prev;
+        newTail.next=null;
+        current.prev=null;
     }
     public static void main(String[] args) {
         DLLNode head=new DLLNode(2);
