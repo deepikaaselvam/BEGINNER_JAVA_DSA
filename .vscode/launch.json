@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "InsertBefK",
+            "request": "launch",
+            "mainClass": "DLL.InsertBefK",
+            "projectName": "BEGINNER_JAVA_DSA_ecea4af2"
+        },
+        {
+            "type": "java",
             "name": "InsertTail",
             "request": "launch",
             "mainClass": "DLL.InsertTail",
