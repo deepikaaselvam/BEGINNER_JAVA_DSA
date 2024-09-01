@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "DelMidNode",
+            "request": "launch",
+            "mainClass": "Contests.DelMidNode",
+            "projectName": "BEGINNER_JAVA_DSA_ecea4af2"
+        },
+        {
+            "type": "java",
+            "name": "DelNode",
+            "request": "launch",
+            "mainClass": "Contests.DelNode",
+            "projectName": "BEGINNER_JAVA_DSA_ecea4af2"
+        },
+        {
+            "type": "java",
             "name": "ToChessBoad",
             "request": "launch",
             "mainClass": "Contests.ToChessBoad",
