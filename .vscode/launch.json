@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ToChessBoad",
+            "request": "launch",
+            "mainClass": "Contests.ToChessBoad",
+            "projectName": "BEGINNER_JAVA_DSA_ecea4af2"
+        },
+        {
+            "type": "java",
+            "name": "DetectCycle",
+            "request": "launch",
+            "mainClass": "Contests.DetectCycle",
+            "projectName": "BEGINNER_JAVA_DSA_ecea4af2"
+        },
+        {
+            "type": "java",
             "name": "SegLL",
             "request": "launch",
             "mainClass": "LL.SegLL",
