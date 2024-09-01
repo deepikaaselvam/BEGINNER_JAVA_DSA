@@ -1,19 +1,5 @@
 package DLL;
-class DLLNode{
-    int data;
-    DLLNode next,prev;
-    DLLNode(int data)
-    {
-        this.data=data;
-        this.next=this.prev=null;
-    }
-    DLLNode (int data,DLLNode prev,DLLNode next)
-    {
-        this.data=data;
-        this.prev=prev;
-        this.next=next;
-    }
-}
+
 
 public class InsertBefK {
     public static DLLNode  convertArray2LL(int[]arr)

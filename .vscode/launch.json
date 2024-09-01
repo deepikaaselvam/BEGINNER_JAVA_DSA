@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Basic",
+            "request": "launch",
+            "mainClass": "Stack.Basic",
+            "projectName": "BEGINNER_JAVA_DSA_ecea4af2"
+        },
+        {
+            "type": "java",
             "name": "DelMidNode",
             "request": "launch",
             "mainClass": "Contests.DelMidNode",
