@@ -7,6 +7,8 @@ public class Basic {
         st.push(20);
         st.push(30);
         st.pop();
+        st.pop();
+        System.out.println(st.peek());
         System.out.println(st.peek());
         System.out.println(st.size());
 
