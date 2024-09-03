@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "RemovefrEnd",
+            "request": "launch",
+            "mainClass": "BruteForce.RemovefrEnd",
+            "projectName": "BEGINNER_JAVA_DSA_ecea4af2"
+        },
+        {
+            "type": "java",
+            "name": "RemFromEnd",
+            "request": "launch",
+            "mainClass": "Contests.RemFromEnd",
+            "projectName": "BEGINNER_JAVA_DSA_ecea4af2"
+        },
+        {
+            "type": "java",
             "name": "Basic",
             "request": "launch",
             "mainClass": "Queue.Basic",
