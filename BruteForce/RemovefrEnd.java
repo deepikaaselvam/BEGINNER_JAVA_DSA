@@ -14,7 +14,7 @@ class Node{
     }
 }
 public class RemovefrEnd {
-    public static Node convertArray2Ll(int[]arr)
+    public static Node convertArray2Ll(int[]arr)//does not delete the first node
     {
         Node head=new Node(arr[0]);
         Node current=head;
@@ -40,6 +40,7 @@ public class RemovefrEnd {
             head=null;
             return newhead;
         }
+        
         int result=cnt-n;
         currentOne=head;
         while(currentOne!=null)
@@ -53,6 +54,7 @@ public class RemovefrEnd {
                 currentOne=currentOne.next;
             }
         }
+     
         Node deleteOne=currentOne.next;
         currentOne.next=currentOne.next.next;
         deleteOne=null;
