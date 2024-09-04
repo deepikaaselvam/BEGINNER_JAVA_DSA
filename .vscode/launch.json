@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "AddBinary",
+            "request": "launch",
+            "mainClass": "BitManipulation.AddBinary",
+            "projectName": "BEGINNER_JAVA_DSA_ecea4af2"
+        },
+        {
+            "type": "java",
+            "name": "PlusOne",
+            "request": "launch",
+            "mainClass": "Contests.PlusOne",
+            "projectName": "BEGINNER_JAVA_DSA_ecea4af2"
+        },
+        {
+            "type": "java",
+            "name": "Bin2Decim",
+            "request": "launch",
+            "mainClass": "BitManipulation.Bin2Decim",
+            "projectName": "BEGINNER_JAVA_DSA_ecea4af2"
+        },
+        {
+            "type": "java",
             "name": "Bin2Dec",
             "request": "launch",
             "mainClass": "BitManipulation.Bin2Dec",
