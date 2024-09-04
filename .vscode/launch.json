@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Bin2Dec",
+            "request": "launch",
+            "mainClass": "BitManipulation.Bin2Dec",
+            "projectName": "BEGINNER_JAVA_DSA_ecea4af2"
+        },
+        {
+            "type": "java",
             "name": "con2Bin",
             "request": "launch",
             "mainClass": "BitManipulation.con2Bin",
