@@ -10,8 +10,9 @@ public class MidElement {
             current=current.next;
         }
         int Middle=(length/2)+1;
+        // current=new Node(Middle);
         current=head;
-        current=new Node(Middle);
+        
         while(current!=null)
         {
             Middle=Middle-1;
