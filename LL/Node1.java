@@ -8,6 +8,7 @@ public class Node1 {
         this.data=data;
         this.next=null;
     }
+
     public Node1(int dataa,Node1 nextt)
     {
         this .data=dataa;

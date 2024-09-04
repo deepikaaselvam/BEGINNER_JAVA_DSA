@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "InsHead",
+            "request": "launch",
+            "mainClass": "LL.InsHead",
+            "projectName": "BEGINNER_JAVA_DSA_ecea4af2"
+        },
+        {
+            "type": "java",
             "name": "RemovefrEnd",
             "request": "launch",
             "mainClass": "BruteForce.RemovefrEnd",

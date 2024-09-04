@@ -14,21 +14,11 @@ class Node{
     }
 }
 public class RemovefrEnd {
-    public static Node convertArray2Ll(int[]arr)//does not delete the first node
-    {
-        Node head=new Node(arr[0]);
-        Node current=head;
-       for(int i=1;i<arr.length;i++)
-        {
-            Node temp=new Node(arr[i]);
-            current.next=temp;
-            current=temp;
-        }
-        return head;
-    }
+   
     public static Node removeNthNodefromEnd(Node head,int n)
     {
-        Node currentOne=head;int cnt=0;
+        Node currentOne=head;
+        int cnt=0;
         while(currentOne!=null)
         {
             cnt++;
@@ -36,6 +26,7 @@ public class RemovefrEnd {
         }
         if(cnt==n)
         {
+            
             Node newhead=head.next;
             head=null;
             return newhead;
@@ -50,9 +41,8 @@ public class RemovefrEnd {
             {
                 break;
             }
-            else{
-                currentOne=currentOne.next;
-            }
+            currentOne=currentOne.next;
+            
         }
      
         Node deleteOne=currentOne.next;
@@ -73,7 +63,12 @@ public class RemovefrEnd {
     }
     public static void main(String[] args) {
         int arr[]={12,5,8,7,6};
-        Node head=convertArray2Ll(arr);
+        Node head=new Node(arr[0]);
+        head.next=new Node(arr[1]);
+        head.next.next=new Node(arr[2]);
+        head.next.next.next=new Node(arr[3]);
+        head.next.next.next.next=new Node(arr[4]);
+
         printList(head);
         System.out.println();
         int N=5;
