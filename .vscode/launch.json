@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MaxSubSum",
+            "request": "launch",
+            "mainClass": "Arrayyy.MaxSubSum",
+            "projectName": "BEGINNER_JAVA_DSA_ecea4af2"
+        },
+        {
+            "type": "java",
+            "name": "Merge_2_array",
+            "request": "launch",
+            "mainClass": "Arrayyy.Merge_2_array",
+            "projectName": "BEGINNER_JAVA_DSA_ecea4af2"
+        },
+        {
+            "type": "java",
+            "name": "RemDup",
+            "request": "launch",
+            "mainClass": "DLL.RemDup",
+            "projectName": "BEGINNER_JAVA_DSA_ecea4af2"
+        },
+        {
+            "type": "java",
+            "name": "RemDup",
+            "request": "launch",
+            "mainClass": "Arrayyy.RemDup",
+            "projectName": "BEGINNER_JAVA_DSA_ecea4af2"
+        },
+        {
+            "type": "java",
             "name": "AddBinary",
             "request": "launch",
             "mainClass": "BitManipulation.AddBinary",
