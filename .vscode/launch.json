@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Palindrome",
+            "request": "launch",
+            "mainClass": "StringsConcept.Palindrome",
+            "projectName": "BEGINNER_JAVA_DSA_ecea4af2"
+        },
+        {
+            "type": "java",
             "name": "Reverse",
             "request": "launch",
             "mainClass": "StringsConcept.Reverse",
