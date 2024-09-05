@@ -1,4 +1,4 @@
-package ArrayConcept;
+package Arrayyy;
 
 public class Basic {
     public static void main(String[] args) {

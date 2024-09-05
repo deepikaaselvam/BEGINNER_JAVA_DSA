@@ -1,4 +1,4 @@
-package ArrayConcept;
+package Arrayyy;
 
 public class MaxCons_1 {
     public static void main(String[] args) {

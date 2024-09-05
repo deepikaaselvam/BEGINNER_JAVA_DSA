@@ -1,4 +1,4 @@
-package ArrayConcept;
+package Arrayyy;
 // import java.util.Arrays;
 import java.util.ArrayList;
 public class Merge_2_array {

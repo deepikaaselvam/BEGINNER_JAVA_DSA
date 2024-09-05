@@ -1,4 +1,4 @@
-package ArrayConcept;
+package Arrayyy;
 
 public class Subarraysum {
     public static int subArraywithSumequalsK(int[]array,int k)

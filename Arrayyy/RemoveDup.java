@@ -1,4 +1,4 @@
-package ArrayConcept;
+package Arrayyy;
 public class RemoveDup {
     public static void  RemoveDupli(int[]RemoveDuplicate,int j)
     {

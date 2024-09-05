@@ -1,4 +1,4 @@
-package ArrayConcept;
+package Arrayyy;
 public class ArrayInsert {
     public static void main(String[] args) {
         int[]array={5,9,4,12,16};

@@ -1,4 +1,4 @@
-package ArrayConcept;
+package Arrayyy;
 // import java.util.Arrays;
 
 public class InsertArray {

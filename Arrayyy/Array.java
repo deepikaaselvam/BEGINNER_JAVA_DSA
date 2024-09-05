@@ -1,4 +1,4 @@
-package ArrayConcept;
+package Arrayyy;
 public class Array{
     public static void main(String[] args) {
         String[]arr=new String[5];

@@ -1,4 +1,4 @@
-package ArrayConcept;
+package Arrayyy;
 public class OptLongSubarr {
     public static void main(String[] args) {
         int[]LongestSubArray={2,5,1,7,10};

@@ -1,4 +1,4 @@
-package ArrayConcept;
+package Arrayyy;
 public class SecLarge {
     public static int SecondLargestElement(int []arr)
     {

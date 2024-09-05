@@ -1,4 +1,4 @@
-package ArrayConcept;
+package Arrayyy;
 public class stringLen {
     public static void main(String[] args) {
         String s="Hello";

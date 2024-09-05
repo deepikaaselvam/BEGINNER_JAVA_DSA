@@ -1,4 +1,4 @@
-package ArrayConcept;
+package Arrayyy;
 public class MaxSubSum {
     public static void main(String[] args) {
         int[]arr={-2,-3};

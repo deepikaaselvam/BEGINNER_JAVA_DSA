@@ -1,4 +1,4 @@
-package ArrayConcept;
+package Arrayyy;
 
 public class SecondSmall {
     public static int SecondSmallestElement(int []arrayy)

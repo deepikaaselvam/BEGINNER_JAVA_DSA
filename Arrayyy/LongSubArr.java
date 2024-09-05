@@ -1,4 +1,4 @@
-package ArrayConcept;
+package Arrayyy;
 public class LongSubArr {
     public static void main(String[] args) {
         int[]array={2,5,1,7,10};
