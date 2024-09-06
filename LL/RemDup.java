@@ -1,5 +1,5 @@
 package LL;
-import java.util.HashSet;
+
 class Node{
     int data;
     Node next;
@@ -17,21 +17,20 @@ class Node{
 public class RemDup {
     public static Node removeDuplicatesInLL(Node head)
     {
-        HashSet<Integer>set=new HashSet<>();
-        Node prev=null;
-        Node current=head;
-        while(current!=null)
+        if(head==null)
         {
-            if(set.contains(current.data))
+            return null;
+        }
+       Node current=head;
+        while(current.next!=null)
+        {
+            if(current.data == current.next.data)
             {
-                prev.next=current.next;
+                current.next=current.next.next;
             }
             else{
-                set.add(current.data);
-               
+                current=current.next;
             }
-            prev=current;
-            current=current.next;
         }
         return head;
 
