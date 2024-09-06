@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "DupOccur",
+            "request": "launch",
+            "mainClass": "Arrayyy.DupOccur",
+            "projectName": "BEGINNER_JAVA_DSA_ecea4af2"
+        },
+        {
+            "type": "java",
+            "name": "SBuild1",
+            "request": "launch",
+            "mainClass": "StringsConcept.SBuild1",
+            "projectName": "BEGINNER_JAVA_DSA_ecea4af2"
+        },
+        {
+            "type": "java",
+            "name": "ValidParan",
+            "request": "launch",
+            "mainClass": "Stack.ValidParan",
+            "projectName": "BEGINNER_JAVA_DSA_ecea4af2"
+        },
+        {
+            "type": "java",
             "name": "Palindrome",
             "request": "launch",
             "mainClass": "StringsConcept.Palindrome",

@@ -2,7 +2,7 @@ package StringsConcept;
 
 public class Palindrome {
     public static void main(String[] args) {
-        String str="amama";
+        String str="amannma";
         int n=str.length();
         int i=0;
         int j=n-1;
@@ -13,6 +13,7 @@ public class Palindrome {
             if(str.charAt(i)!=str.charAt(j))
             {
                 Palindrome=false;
+                break;
                
             }
             i++;
