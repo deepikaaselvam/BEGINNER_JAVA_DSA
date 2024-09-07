@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Kadanes",
+            "request": "launch",
+            "mainClass": "Arrayyy.Kadanes",
+            "projectName": "BEGINNER_JAVA_DSA_ecea4af2"
+        },
+        {
+            "type": "java",
             "name": "DupOccur",
             "request": "launch",
             "mainClass": "Arrayyy.DupOccur",
