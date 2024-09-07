@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PreToPost",
+            "request": "launch",
+            "mainClass": "Stack.PreToPost",
+            "projectName": "BEGINNER_JAVA_DSA_ecea4af2"
+        },
+        {
+            "type": "java",
+            "name": "PostToPrefix",
+            "request": "launch",
+            "mainClass": "Stack.PostToPrefix",
+            "projectName": "BEGINNER_JAVA_DSA_ecea4af2"
+        },
+        {
+            "type": "java",
             "name": "PrefixToInfix",
             "request": "launch",
             "mainClass": "Stack.PrefixToInfix",

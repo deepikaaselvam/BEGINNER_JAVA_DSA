@@ -5,9 +5,9 @@ public class InfixToPost {
     {
         switch(operator)
         {
-            case '+':
-            case '-':
-            return 1;
+            case '+','-':
+            
+                 return 1;
             case '*':
             case '/':
             return 2;

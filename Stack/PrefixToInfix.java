@@ -5,14 +5,14 @@ import java.lang.String;
 public class PrefixToInfix {
     public static String prefixToInfixOrder(String s){
         Stack<String>st=new Stack<>();
-        int n=s.length()-1;
+        int  n=s.length()-1;
         String answer="";
         int i=n;
         while(i>=0)
         {
             char c=s.charAt(i);
             if((s.charAt(i)>='A'&&s.charAt(i)<='Z')||(s.charAt(i)>='a'&&s.charAt(i)<='z')||
-            (s.charAt(i)>='0'&& s.charAt(i)<='9'))
+            (s.charAt(i)>='0'&& s.charAt(i)<='9'))// if(Character.isLetterOrDigit(c))
             {
                 answer=answer+s.charAt(i);
                 st.push(Character.toString(c));
