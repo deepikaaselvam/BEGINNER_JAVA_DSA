@@ -14,7 +14,7 @@ public class DupOccur {
 
                 }
             }
-            return -1; 
+            return arr.add(-1); 
         }
        
 
@@ -22,7 +22,7 @@ public class DupOccur {
     public static void main(String[] args) {
         int[]array={2,3,3,3,1,2,3};
      
-        morethanOneTimeOccur(array);
+        System.out.println(morethanOneTimeOccur(array));
 
       
         
