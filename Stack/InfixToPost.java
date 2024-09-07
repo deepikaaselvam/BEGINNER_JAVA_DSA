@@ -27,7 +27,7 @@ public class InfixToPost {
         {
             if((qn.charAt(i)>='A'&&qn.charAt(i)<='Z')||
             (qn.charAt(i)>='a' && qn.charAt(i)<='z')||
-            (qn.charAt(i)>='0'&& qn.charAt(i)<='9'))
+            (qn.charAt(i)>=0&& qn.charAt(i)<=9))
             {
                 answer=answer+qn.charAt(i);
             }

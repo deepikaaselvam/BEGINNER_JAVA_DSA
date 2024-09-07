@@ -13,9 +13,11 @@ public class RevLLII {
 
 
 
-        return curr;
+     
 
     }
+       return curr;
+}
     public static void printList(Node head)
     {
         Node current=head;
@@ -39,4 +41,4 @@ public class RevLLII {
     }
     
 }
-}
+

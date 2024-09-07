@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "InfixToPrefix",
+            "request": "launch",
+            "mainClass": "Stack.InfixToPrefix",
+            "projectName": "BEGINNER_JAVA_DSA_ecea4af2"
+        },
+        {
+            "type": "java",
+            "name": "InfixToPost",
+            "request": "launch",
+            "mainClass": "Stack.InfixToPost",
+            "projectName": "BEGINNER_JAVA_DSA_ecea4af2"
+        },
+        {
+            "type": "java",
             "name": "Kadanes",
             "request": "launch",
             "mainClass": "Arrayyy.Kadanes",

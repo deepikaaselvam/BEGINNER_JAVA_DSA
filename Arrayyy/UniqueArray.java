@@ -9,8 +9,15 @@ public class UniqueArray {
         {
             hashinggg.add(910000);
         }
+
+     return 1;
+
     }
-    return 
+    return -1;
+
+
+   
+    
     public static void main(String[] args) {
         int[]array={131,111,198,164,131,198};
         distinctArrayElement(array);
