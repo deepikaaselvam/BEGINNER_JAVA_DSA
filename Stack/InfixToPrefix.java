@@ -4,9 +4,7 @@ public class InfixToPrefix {
     public static void main(String[] args) {
         String s="(A+B)*C-D+E";
         StringBuilder sb=new StringBuilder(s);
-        System.out.println(sb.reverse());
-
-
+        StringBuilder stringg=sb.reverse();
+        System.out.println(stringg);
     }
-    
 }
