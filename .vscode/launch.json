@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PrefixToInfix",
+            "request": "launch",
+            "mainClass": "Stack.PrefixToInfix",
+            "projectName": "BEGINNER_JAVA_DSA_ecea4af2"
+        },
+        {
+            "type": "java",
             "name": "InfixToPrefix",
             "request": "launch",
             "mainClass": "Stack.InfixToPrefix",
