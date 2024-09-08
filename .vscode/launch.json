@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "BitMani",
+            "request": "launch",
+            "mainClass": "Contests.BitMani",
+            "projectName": "BEGINNER_JAVA_DSA_ecea4af2"
+        },
+        {
+            "type": "java",
+            "name": "Palindrom",
+            "request": "launch",
+            "mainClass": "StringsConcept.Palindrom",
+            "projectName": "BEGINNER_JAVA_DSA_ecea4af2"
+        },
+        {
+            "type": "java",
             "name": "Palindrome",
             "request": "launch",
             "mainClass": "Stack.Palindrome",
