@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Palindrome",
+            "request": "launch",
+            "mainClass": "Stack.Palindrome",
+            "projectName": "BEGINNER_JAVA_DSA_ecea4af2"
+        },
+        {
+            "type": "java",
+            "name": "QUseStack",
+            "request": "launch",
+            "mainClass": "Stack.QUseStack",
+            "projectName": "BEGINNER_JAVA_DSA_ecea4af2"
+        },
+        {
+            "type": "java",
+            "name": "DateManipu",
+            "request": "launch",
+            "mainClass": "Contests.DateManipu",
+            "projectName": "BEGINNER_JAVA_DSA_ecea4af2"
+        },
+        {
+            "type": "java",
             "name": "PreToPost",
             "request": "launch",
             "mainClass": "Stack.PreToPost",
