@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SimplifyPath",
+            "request": "launch",
+            "mainClass": "Stack.SimplifyPath",
+            "projectName": "BEGINNER_JAVA_DSA_ecea4af2"
+        },
+        {
+            "type": "java",
             "name": "MinStack2",
             "request": "launch",
             "mainClass": "Stack.MinStack2",
