@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MinStack2",
+            "request": "launch",
+            "mainClass": "Stack.MinStack2",
+            "projectName": "BEGINNER_JAVA_DSA_ecea4af2"
+        },
+        {
+            "type": "java",
+            "name": "MinStack",
+            "request": "launch",
+            "mainClass": "Stack.MinStack",
+            "projectName": "BEGINNER_JAVA_DSA_ecea4af2"
+        },
+        {
+            "type": "java",
             "name": "BitMani",
             "request": "launch",
             "mainClass": "Contests.BitMani",
