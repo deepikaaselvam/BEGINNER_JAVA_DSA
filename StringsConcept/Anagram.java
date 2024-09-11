@@ -3,10 +3,11 @@ import java.util.Arrays;
 public class Anagram {
     public static boolean isAnagram(String str1,String str2)
     {
-      
-        if(str1.length()==str2.length())
+        
+      str1=str2.toLowerCase();
+        if(str1.length()!=str2.length())
         {
-            System.out.println("Proceed your process");
+            return false;
         }
         
         char[]arr1=str1.toCharArray();
@@ -20,9 +21,6 @@ public class Anagram {
         String s="car";
         String  t="tra";
         System.out.println(isAnagram(s, t));
-
-        
-        
     }
     
     
