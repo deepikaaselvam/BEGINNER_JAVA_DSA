@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "XConsonant",
+            "request": "launch",
+            "mainClass": "StringsConcept.XConsonant",
+            "projectName": "BEGINNER_JAVA_DSA_ecea4af2"
+        },
+        {
+            "type": "java",
+            "name": "preNextAlp",
+            "request": "launch",
+            "mainClass": "StringsConcept.preNextAlp",
+            "projectName": "BEGINNER_JAVA_DSA_ecea4af2"
+        },
+        {
+            "type": "java",
             "name": "Palindrome",
             "request": "launch",
             "mainClass": "Recursion.Palindrome",

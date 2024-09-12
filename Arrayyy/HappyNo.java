@@ -1,7 +1,7 @@
 package Arrayyy;
 
 public class HappyNo {
-    public static boolean happyNumber(int n)
+    public static boolean happyNumber(int n)//Error
     {
         int sum=0;
         while(n!=1)

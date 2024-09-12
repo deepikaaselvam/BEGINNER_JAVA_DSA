@@ -61,7 +61,7 @@ public class InfixToPrefix {
                     stk.pop();
                 }
             }
-            i++;x
+            i++;
         }
         System.out.println(answer);
     }
