@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Palindrome",
+            "request": "launch",
+            "mainClass": "Recursion.Palindrome",
+            "projectName": "BEGINNER_JAVA_DSA_ecea4af2"
+        },
+        {
+            "type": "java",
+            "name": "maxSubarr",
+            "request": "launch",
+            "mainClass": "Contests.maxSubarr",
+            "projectName": "BEGINNER_JAVA_DSA_ecea4af2"
+        },
+        {
+            "type": "java",
+            "name": "HappyNo",
+            "request": "launch",
+            "mainClass": "Arrayyy.HappyNo",
+            "projectName": "BEGINNER_JAVA_DSA_ecea4af2"
+        },
+        {
+            "type": "java",
+            "name": "RevArray",
+            "request": "launch",
+            "mainClass": "Recursion.RevArray",
+            "projectName": "BEGINNER_JAVA_DSA_ecea4af2"
+        },
+        {
+            "type": "java",
             "name": "Fibonacci",
             "request": "launch",
             "mainClass": "Recursion.Fibonacci",
