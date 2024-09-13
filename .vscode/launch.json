@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Character",
+            "request": "launch",
+            "mainClass": "Contests.Character",
+            "projectName": "BEGINNER_JAVA_DSA_ecea4af2"
+        },
+        {
+            "type": "java",
+            "name": "UnitDigit",
+            "request": "launch",
+            "mainClass": "Contests.UnitDigit",
+            "projectName": "BEGINNER_JAVA_DSA_ecea4af2"
+        },
+        {
+            "type": "java",
+            "name": "PowerOfX",
+            "request": "launch",
+            "mainClass": "Contests.PowerOfX",
+            "projectName": "BEGINNER_JAVA_DSA_ecea4af2"
+        },
+        {
+            "type": "java",
+            "name": "PreSucc",
+            "request": "launch",
+            "mainClass": "Contests.PreSucc",
+            "projectName": "BEGINNER_JAVA_DSA_ecea4af2"
+        },
+        {
+            "type": "java",
             "name": "XConsonant",
             "request": "launch",
             "mainClass": "StringsConcept.XConsonant",
