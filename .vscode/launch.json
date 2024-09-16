@@ -6,6 +6,90 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Unique",
+            "request": "launch",
+            "mainClass": "Arrayyy.Unique",
+            "projectName": "BEGINNER_JAVA_DSA_ecea4af2"
+        },
+        {
+            "type": "java",
+            "name": "IndexOccur",
+            "request": "launch",
+            "mainClass": "StringsConcept.IndexOccur",
+            "projectName": "BEGINNER_JAVA_DSA_ecea4af2"
+        },
+        {
+            "type": "java",
+            "name": "RemDupI",
+            "request": "launch",
+            "mainClass": "LL.RemDupI",
+            "projectName": "BEGINNER_JAVA_DSA_ecea4af2"
+        },
+        {
+            "type": "java",
+            "name": "RemDupII",
+            "request": "launch",
+            "mainClass": "LL.RemDupII",
+            "projectName": "BEGINNER_JAVA_DSA_ecea4af2"
+        },
+        {
+            "type": "java",
+            "name": "RevGrp",
+            "request": "launch",
+            "mainClass": "LL.RevGrp",
+            "projectName": "BEGINNER_JAVA_DSA_ecea4af2"
+        },
+        {
+            "type": "java",
+            "name": "AtoiString",
+            "request": "launch",
+            "mainClass": "StringsConcept.AtoiString",
+            "projectName": "BEGINNER_JAVA_DSA_ecea4af2"
+        },
+        {
+            "type": "java",
+            "name": "RevLL",
+            "request": "launch",
+            "mainClass": "LL.RevLL",
+            "projectName": "BEGINNER_JAVA_DSA_ecea4af2"
+        },
+        {
+            "type": "java",
+            "name": "PalindromeLL",
+            "request": "launch",
+            "mainClass": "LL.PalindromeLL",
+            "projectName": "BEGINNER_JAVA_DSA_ecea4af2"
+        },
+        {
+            "type": "java",
+            "name": "StrToInteg",
+            "request": "launch",
+            "mainClass": "Contests.StrToInteg",
+            "projectName": "BEGINNER_JAVA_DSA_ecea4af2"
+        },
+        {
+            "type": "java",
+            "name": "RemNode",
+            "request": "launch",
+            "mainClass": "Contests.RemNode",
+            "projectName": "BEGINNER_JAVA_DSA_ecea4af2"
+        },
+        {
+            "type": "java",
+            "name": "LLtoList",
+            "request": "launch",
+            "mainClass": "Contests.LLtoList",
+            "projectName": "BEGINNER_JAVA_DSA_ecea4af2"
+        },
+        {
+            "type": "java",
+            "name": "IntersectLL",
+            "request": "launch",
+            "mainClass": "Contests.IntersectLL",
+            "projectName": "BEGINNER_JAVA_DSA_ecea4af2"
+        },
+        {
+            "type": "java",
             "name": "Character",
             "request": "launch",
             "mainClass": "Contests.Character",
