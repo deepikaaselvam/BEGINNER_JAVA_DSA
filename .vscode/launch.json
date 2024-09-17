@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "NxtGreaterEl",
+            "request": "launch",
+            "mainClass": "BruteForce.NxtGreaterEl",
+            "projectName": "BEGINNER_JAVA_DSA_ecea4af2"
+        },
+        {
+            "type": "java",
+            "name": "EqualArrays",
+            "request": "launch",
+            "mainClass": "Arrayyy.EqualArrays",
+            "projectName": "BEGINNER_JAVA_DSA_ecea4af2"
+        },
+        {
+            "type": "java",
+            "name": "Solution",
+            "request": "launch",
+            "mainClass": "Contests.Solution",
+            "projectName": "BEGINNER_JAVA_DSA_ecea4af2"
+        },
+        {
+            "type": "java",
+            "name": "MergSortArr",
+            "request": "launch",
+            "mainClass": "Contests.MergSortArr",
+            "projectName": "BEGINNER_JAVA_DSA_ecea4af2"
+        },
+        {
+            "type": "java",
+            "name": "DelLLarr",
+            "request": "launch",
+            "mainClass": "LL.DelLLarr",
+            "projectName": "BEGINNER_JAVA_DSA_ecea4af2"
+        },
+        {
+            "type": "java",
+            "name": "OptMerge2LL",
+            "request": "launch",
+            "mainClass": "LL.OptMerge2LL",
+            "projectName": "BEGINNER_JAVA_DSA_ecea4af2"
+        },
+        {
+            "type": "java",
+            "name": "Merg2LL",
+            "request": "launch",
+            "mainClass": "LL.Merg2LL",
+            "projectName": "BEGINNER_JAVA_DSA_ecea4af2"
+        },
+        {
+            "type": "java",
             "name": "Unique",
             "request": "launch",
             "mainClass": "Arrayyy.Unique",

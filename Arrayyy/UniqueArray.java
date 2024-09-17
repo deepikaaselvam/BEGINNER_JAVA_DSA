@@ -13,7 +13,7 @@ public class UniqueArray {
      return 1;
 
     }
-    return -1;
+   
 
 
    
