@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "NSEIOpt",
+            "request": "launch",
+            "mainClass": "Contests.NSEIOpt",
+            "projectName": "BEGINNER_JAVA_DSA_ecea4af2"
+        },
+        {
+            "type": "java",
+            "name": "NSEI",
+            "request": "launch",
+            "mainClass": "Contests.NSEI",
+            "projectName": "BEGINNER_JAVA_DSA_ecea4af2"
+        },
+        {
+            "type": "java",
+            "name": "NxtGrterEle",
+            "request": "launch",
+            "mainClass": "Stack.NxtGrterEle",
+            "projectName": "BEGINNER_JAVA_DSA_ecea4af2"
+        },
+        {
+            "type": "java",
             "name": "NxtGreaterEl",
             "request": "launch",
             "mainClass": "BruteForce.NxtGreaterEl",
