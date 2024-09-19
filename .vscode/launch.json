@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Anagramm",
+            "request": "launch",
+            "mainClass": "StringsConcept.Anagramm",
+            "projectName": "BEGINNER_JAVA_DSA_ecea4af2"
+        },
+        {
+            "type": "java",
+            "name": "VAnagram",
+            "request": "launch",
+            "mainClass": "StringsConcept.VAnagram",
+            "projectName": "BEGINNER_JAVA_DSA_ecea4af2"
+        },
+        {
+            "type": "java",
+            "name": "MinSubArr",
+            "request": "launch",
+            "mainClass": "Contests.MinSubArr",
+            "projectName": "BEGINNER_JAVA_DSA_ecea4af2"
+        },
+        {
+            "type": "java",
             "name": "NSEIOpt",
             "request": "launch",
             "mainClass": "Contests.NSEIOpt",
