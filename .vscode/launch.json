@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Imp2",
+            "request": "launch",
+            "mainClass": "StringsConcept.Imp2",
+            "projectName": "BEGINNER_JAVA_DSA_ecea4af2"
+        },
+        {
+            "type": "java",
+            "name": "LSubString",
+            "request": "launch",
+            "mainClass": "StringsConcept.LSubString",
+            "projectName": "BEGINNER_JAVA_DSA_ecea4af2"
+        },
+        {
+            "type": "java",
+            "name": "Imp1",
+            "request": "launch",
+            "mainClass": "StringsConcept.Imp1",
+            "projectName": "BEGINNER_JAVA_DSA_ecea4af2"
+        },
+        {
+            "type": "java",
             "name": "Anagramm",
             "request": "launch",
             "mainClass": "StringsConcept.Anagramm",
