@@ -4,6 +4,8 @@ public class Imp2 {
     public static int lengthOftheLastWord(String str)
     {
         int len=0;
+        // char[]charArray=str.toCharArray();
+        // charArray=str.split(' ');
         for(int i=str.length()-1;i>0;i--)
         {
             if(str.charAt(i)==' ')
