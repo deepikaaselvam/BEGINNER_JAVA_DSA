@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "RvrseWord",
+            "request": "launch",
+            "mainClass": "Stack.RvrseWord",
+            "projectName": "BEGINNER_JAVA_DSA_ecea4af2"
+        },
+        {
+            "type": "java",
             "name": "RevWord",
             "request": "launch",
             "mainClass": "Stack.RevWord",
