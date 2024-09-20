@@ -1,43 +1,41 @@
 package Stack;
 import java.util.Stack;
-import java.util.ArrayList;
-public class VParantheses {
+
+public class VParantheses {//It takes the runtime of 4ms.To Optimise ,I will done the code on "OuterParanthesis2"
     public static void main(String[] args) {
         Stack<Character>st=new Stack<>();
-        ArrayList<Character>list=new ArrayList<>();
-        String s="(()())";
-        char[]CharArray=s.toCharArray();
-     
-        for(int i=0;i<CharArray.length;i++)
+        String answer="";
+        String s="(()())(()(())";
+    for(int i=0;i<s.length();i++)
+    {
+        if(st.isEmpty())
         {
-            st.push(CharArray[i]);
+            st.push(s.charAt(i));
         }
-        for(int i=st.size()-1;i>=0;i--)
+        else if(s.charAt(i)==')'&&st.peek()=='('&&!st.isEmpty())
         {
-            if(s.charAt(i)=='(')
+            st.pop();
+            if(st.isEmpty())
             {
-                 if(s.charAt(i)=='(' && s.charAt(i+1)!=')')
-                 {
-                    st.pop();
-                 }
+                continue;
             }
-           if(s.charAt(i)==')')
-           {}
-           if(s.charAt(i)==')'&& s.charAt(i-1)!='(')
-            {
-                st.pop();
-            }
-        }
-         
             else{
-               list.add(st.peek());
-               st.pop();
+                answer+=s.charAt(i);
             }
         }
-        for(int i=list.size()-1;i>=0;i--)
+        
+        else if(s.charAt(i)=='(')
         {
-            System.out.print(list.get(i));
+            st.push(s.charAt(i));
+            answer+=s.charAt(i);
         }
+        
+    }
+    System.out.println(answer);
+        
+       
+     
+       
        
     }
     
