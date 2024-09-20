@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "RevWord",
+            "request": "launch",
+            "mainClass": "Stack.RevWord",
+            "projectName": "BEGINNER_JAVA_DSA_ecea4af2"
+        },
+        {
+            "type": "java",
+            "name": "VParantheses",
+            "request": "launch",
+            "mainClass": "Stack.VParantheses",
+            "projectName": "BEGINNER_JAVA_DSA_ecea4af2"
+        },
+        {
+            "type": "java",
             "name": "Imp2",
             "request": "launch",
             "mainClass": "StringsConcept.Imp2",
