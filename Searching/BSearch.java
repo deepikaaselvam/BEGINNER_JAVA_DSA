@@ -34,5 +34,4 @@ public class BSearch {
         System.out.println(binarySearch(arr,n,target));
         
     }
-    
 }
