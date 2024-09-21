@@ -25,5 +25,4 @@ public class UBound {
         int target=11;
         System.out.println(UpperBound(array,target));
     }
-    
 }
