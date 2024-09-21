@@ -6,7 +6,7 @@ public class RecBS {
         if(l>r){
             return -1;
         }
-        int mid=(l+r)/2;
+        int mid=(l+(r-l)/2);
         if(arrr[mid]==target)
         {
             return mid;
